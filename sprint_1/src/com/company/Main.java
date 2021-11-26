@@ -5,9 +5,10 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a word: ");
-        String str = sc.nextLine();
-        System.out.print("You have entered: " + "\"" + str + "\"");
+        System.out.print("Enter two numbers which will be added up: ");
+        Scanner input = new Scanner(System.in);
+        int number_one = input.nextInt();
+        int number_two = input.nextInt();
+        System.out.print(number_one + number_two);
     }
 }
