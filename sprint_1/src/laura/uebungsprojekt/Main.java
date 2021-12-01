@@ -1,10 +1,10 @@
 package laura.uebungsprojekt;
 
-import laura.uebungsprojekt.aufgaben.UPLK76_Taschenrechner;
+import laura.uebungsprojekt.aufgaben.UPLK78_Messprogramm;
 
 public class Main {
 
     public static void main(String[] args) {
-        UPLK76_Taschenrechner.SumTwoNumbers();
+        UPLK78_Messprogramm.calcMeanOfValues(6);
     }
 }
