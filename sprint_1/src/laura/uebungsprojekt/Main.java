@@ -1,4 +1,4 @@
-package com.company;
+package laura.uebungsprojekt;
 
 import java.util.Scanner;
 
