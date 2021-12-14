@@ -2,6 +2,7 @@ package laura.uebungsprojekt;
 
 import laura.uebungsprojekt.aufgaben.UPLK80_Wetterstation;
 import laura.uebungsprojekt.aufgaben.UPLK82_Schaltjahrprüfung;
+import laura.uebungsprojekt.aufgaben.UPLK83_Pasch;
 
 public class Main {
 
@@ -12,6 +13,7 @@ public class Main {
         //UPLK80_Wetterstation.calc_temp_diff_of_two_days(temps);
         //UPLK80_Wetterstation.calc_temp_diff_of_two_days_oo(temps);
 
-        UPLK82_Schaltjahrprüfung.checkIfYearIsLeapYear();
+        //UPLK82_Schaltjahrprüfung.checkIfYearIsLeapYear();
+        UPLK83_Pasch.diceRoll();
     }
 }
