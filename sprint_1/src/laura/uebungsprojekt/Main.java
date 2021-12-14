@@ -1,6 +1,7 @@
 package laura.uebungsprojekt;
 
 import laura.uebungsprojekt.aufgaben.UPLK83_Pasch;
+import laura.uebungsprojekt.aufgaben.UPLK85_LottoLaesstGruessen;
 
 import java.util.Arrays;
 import java.util.List;
@@ -9,12 +10,14 @@ import java.util.Random;
 public class Main {
 
     public static void main(String[] args) {
-        List<Integer> dices = UPLK83_Pasch.rollDice(3);
-        System.out.println(dices);
-        boolean result = UPLK83_Pasch.isPasch(dices);
-        System.out.println(result);
+        //int[] temps = {12, 14, 9, 12, 15, 16, 15, 15, 11, 8, 13, 13, 15, 12};
+        //UPLK80_Wetterstation.calc_mean_temp(temps);
+        //UPLK80_Wetterstation.calc_min_and_max_temp(temps);
+        //UPLK80_Wetterstation.calc_temp_diff_of_two_days(temps);
+        //UPLK80_Wetterstation.calc_temp_diff_of_two_days_oo(temps);
 
-        var pasch = Arrays.asList(5, 5, 5, 5, 5, 5);
-        System.out.println(UPLK83_Pasch.isPasch(pasch));
+        //UPLK82_Schaltjahrprüfung.checkIfYearIsLeapYear();
+        //UPLK83_Pasch.diceRoll();
+        UPLK85_LottoLaesstGruessen.lotto();
     }
 }
