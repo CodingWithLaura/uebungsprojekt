@@ -39,4 +39,16 @@ class UPLK82_SchaltjahrprüfungTest {
         // Assert
         assertFalse(isSchaltjahr);
     }
+
+    @Test
+    void checkIfYearIsLeapYearWhenDivisibleBy400() {
+        // Arrange
+        int jahr = 1992;
+
+        // Act
+        boolean isSchaltjahr = UPLK82_Schaltjahrprüfung.checkIfYearIsLeapYear(jahr);
+
+        // Assert
+        assertFalse(isSchaltjahr);
+    }
 }
