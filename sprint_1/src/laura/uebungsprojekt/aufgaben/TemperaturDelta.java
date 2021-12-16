@@ -4,10 +4,10 @@ import static java.lang.StrictMath.abs;
 
 public class TemperaturDelta {
 
-    public int tag_1;
-    public int tag_2;
-    public int temperatur_tag1;
-    public int temperatur_tag2; //nicht public sondern getter setter
+    private int tag_1;
+    private int tag_2;
+    private int temperatur_tag1;
+    private int temperatur_tag2;
     public int delta(){
         return abs(temperatur_tag1 - temperatur_tag2);
     }
