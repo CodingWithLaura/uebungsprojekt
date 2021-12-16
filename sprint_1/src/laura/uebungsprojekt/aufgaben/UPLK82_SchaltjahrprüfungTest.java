@@ -49,6 +49,6 @@ class UPLK82_SchaltjahrprüfungTest {
         boolean isSchaltjahr = UPLK82_Schaltjahrprüfung.checkIfYearIsLeapYear(jahr);
 
         // Assert
-        assertFalse(isSchaltjahr);
+        assertTrue(isSchaltjahr);
     }
 }

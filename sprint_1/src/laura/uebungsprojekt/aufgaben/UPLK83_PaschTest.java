@@ -1,4 +1,4 @@
-package laura.uebungsprojekt.aufgaben;
+/*package laura.uebungsprojekt.aufgaben;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
@@ -13,7 +13,7 @@ class UPLK83_PaschTest {
         int dice_three = 4;
 
         // Act
-        boolean result = UPLK83_Pasch.diceRoll(dice_one, dice_two, dice_three);
+        boolean result = UPLK83_Pasch.isTriple(dice_one, dice_two, dice_three);
 
         // Assert
         assertTrue(result);
@@ -26,9 +26,11 @@ class UPLK83_PaschTest {
         int dice_three = 4;
 
         // Act
-        boolean result = UPLK83_Pasch.diceRoll(dice_one, dice_two, dice_three);
+        boolean result = UPLK83_Pasch.isTriple(dice_one, dice_two, dice_three);
 
         // Assert
         assertFalse(result);
     }
 }
+
+*/
