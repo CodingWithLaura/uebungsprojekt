@@ -31,7 +31,7 @@ class UPLK85_LottoLaesstGruessenTest {
     }
 
     @Test
-    void lotto_should_return_exception_when_given_a_negative_number() {
+    void lotto_should_throws_exception_when_given_a_negative_number() {
         // Arrange
         int number = -1;
 
@@ -39,5 +39,18 @@ class UPLK85_LottoLaesstGruessenTest {
         assertThrows(ArithmeticException.class, () -> {
             UPLK85_LottoLaesstGruessen.calcFaculty(number);
         });
+    }
+
+    @Test
+    void binominal_coefficient_should_return_should_return_n_at_k() {
+        // Arrange
+        int n = 8;
+        int k = 3;
+
+        // Act
+        int result = UPLK85_LottoLaesstGruessen.calcBionominalCoefficient(n, k);
+
+        //Assert
+        assertEquals(result,56);
     }
 }
