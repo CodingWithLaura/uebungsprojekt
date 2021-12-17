@@ -17,6 +17,5 @@ public class Main {
 
         //UPLK82_Schaltjahrprüfung.checkIfYearIsLeapYear();
         //UPLK83_Pasch.diceRoll();
-        UPLK85_LottoLaesstGruessen.lotto();
     }
 }

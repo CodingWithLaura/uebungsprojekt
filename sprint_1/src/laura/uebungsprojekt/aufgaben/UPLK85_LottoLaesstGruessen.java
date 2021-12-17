@@ -1,16 +1,17 @@
 package laura.uebungsprojekt.aufgaben;
 
-import java.util.Scanner;
 
 public class UPLK85_LottoLaesstGruessen {
-    public static void lotto(){
-        System.out.print("Enter a number: ");
-        Scanner sc = new Scanner(System.in);
-        int number = sc.nextInt();
-        int i,fact = 1;
-        for(i=1;i<=number;i++){
-            fact=fact*i;
+    public static int calcFaculty(int number) {
+        if(number < 0){
+            throw new ArithmeticException("Negative numbers are not defined for faculty calculation");
         }
-        System.out.print("The factorial of " + number + " is: " + fact);
+        int faculty = 1;
+
+        for (int i = 1; i <= number; i++) {
+            faculty = faculty * i;
+        }
+
+        return faculty;
     }
 }
