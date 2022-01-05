@@ -13,10 +13,10 @@ class UPLK86_RatespielTest {
         int guessed_number = 485;
 
         // Act
-        String result = UPLK86_Ratespiel.isGuessedNumberActualNumber(guessed_number, actual_number);
+        int result = UPLK86_Ratespiel.compareGuessedAndActualNumber(guessed_number, actual_number);
 
         // Assert
-        assertEquals("Your guessed number is correct!", result);
+        assertEquals(0, result);
     }
 
     @Test
@@ -26,10 +26,10 @@ class UPLK86_RatespielTest {
         int guessed_number = 486;
 
         // Act
-        String result = UPLK86_Ratespiel.isGuessedNumberActualNumber(guessed_number, actual_number);
+        int result = UPLK86_Ratespiel.compareGuessedAndActualNumber(guessed_number, actual_number);
 
         // Assert
-        assertEquals("Your guessed number is too high.", result);
+        assertEquals(1, result);
     }
 
     @Test
@@ -39,9 +39,9 @@ class UPLK86_RatespielTest {
         int guessed_number = 484;
 
         // Act
-        String result = UPLK86_Ratespiel.isGuessedNumberActualNumber(guessed_number, actual_number);
+        int result = UPLK86_Ratespiel.compareGuessedAndActualNumber(guessed_number, actual_number);
 
         // Assert
-        assertEquals("Your guessed number is too low.", result);
+        assertEquals(-1, result);
     }
 }
