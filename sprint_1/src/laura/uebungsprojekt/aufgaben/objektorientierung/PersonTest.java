@@ -1,6 +1,7 @@
-package laura.uebungsprojekt.aufgaben;
+package laura.uebungsprojekt.aufgaben.objektorientierung;
 
 import static org.junit.jupiter.api.Assertions.*;
+
 import org.junit.jupiter.api.Test;
 
 class PersonTest {

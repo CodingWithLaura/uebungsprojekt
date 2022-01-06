@@ -1,4 +1,4 @@
-package laura.uebungsprojekt.aufgaben;
+package laura.uebungsprojekt.aufgaben.objektorientierung;
 
 import java.util.Arrays;
 import java.util.List;
