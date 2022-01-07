@@ -2,10 +2,10 @@ package laura.uebungsprojekt.aufgaben.objektorientierung;
 
 public class Person {
 
-    private final String name;
-    private int alter;
-    private final String geschlecht;
-    private final String augenfarbe;
+    protected final String name;
+    protected int alter;
+    protected final String geschlecht;
+    protected final String augenfarbe;
 
     public Person(String name, int alter, String geschlecht, String augenfarbe) {
         this.name = name;
