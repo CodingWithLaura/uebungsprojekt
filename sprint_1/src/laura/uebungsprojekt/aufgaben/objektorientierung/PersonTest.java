@@ -28,6 +28,5 @@ class PersonTest {
 
         // Assert
         assertEquals(26, mensch.getAlter());
-        new Schüler("Lisa", 12, "", "");
     }
 }

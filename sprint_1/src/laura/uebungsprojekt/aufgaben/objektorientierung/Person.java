@@ -37,5 +37,9 @@ public class Person {
     public void personAlternLassen(int altern) {
         this.alter += altern;
     }
+
+    public void reden(){
+        System.out.println("Person - reden");
+    }
 }
 
