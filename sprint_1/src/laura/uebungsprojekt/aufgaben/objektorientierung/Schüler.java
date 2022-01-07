@@ -13,4 +13,12 @@ public class Schüler extends Person {
     public void reden() {
         System.out.println("Der Schüler " + this.getName() + " hat folgenden Schwerpunkt: " + schwerpunkt);
     }
+    public void setSchwerpunkt(String schwerpunkt) {
+        this.schwerpunkt = schwerpunkt;
+    }
+
+    public void reden(String schwerpunkt) {
+        setSchwerpunkt(schwerpunkt);
+        System.out.println("Der Schüler " + this.getName() + " hat folgenden Schwerpunkt: " + schwerpunkt);
+    }
 }
