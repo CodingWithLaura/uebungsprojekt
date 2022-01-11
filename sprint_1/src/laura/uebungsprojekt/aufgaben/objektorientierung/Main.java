@@ -3,7 +3,7 @@ package laura.uebungsprojekt.aufgaben.objektorientierung;
 public class Main {
 
     public static void main(String[] args) {
-        Schüler schüler1 = new Schüler("Michael", 13, "", "","Mathe");
+        /*Schüler schüler1 = new Schüler("Michael", 13, "", "","Mathe");
         Schüler schüler2 = new Schüler("Daniel", 13, "", "","Bio");
         Schüler schüler3 = new Schüler("Lisa", 13, "", "","Musik");
 
@@ -15,6 +15,10 @@ public class Main {
         for (Person person : personen)
         {
             person.reden();
-        }
+        }*/
+
+        ComputerTimeProvider foo = new ComputerTimeProvider();
+        foo.showSystemTime();
+        foo.showUTCTime();
     }
 }
