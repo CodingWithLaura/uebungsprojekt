@@ -1,6 +1,6 @@
 package laura.uebungsprojekt.aufgaben.objektorientierung;
 
-public class Person {
+public class Person implements Comparable<Person> {
 
     protected final String name;
     protected int alter;
@@ -38,8 +38,13 @@ public class Person {
         this.alter += altern;
     }
 
-    public void reden(){
+    public void reden() {
         System.out.println("Person - reden");
+    }
+
+    @Override
+    public int compareTo(Person person) {
+        return this.name.compareTo(person.name);
     }
 }
 
