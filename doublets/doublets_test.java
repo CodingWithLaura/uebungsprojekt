@@ -1,9 +1,7 @@
-/*package laura.uebungsprojekt.aufgaben;
-
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-class UPLK83_PaschTest {
+class DoubletsTest {
 
     @Test
     void diceRoll_method_should_return_true_if_rolled_a_triple() {
@@ -13,7 +11,7 @@ class UPLK83_PaschTest {
         int dice_three = 4;
 
         // Act
-        boolean result = UPLK83_Pasch.isTriple(dice_one, dice_two, dice_three);
+        boolean result = Doublets.isDoublet(dice_one, dice_two, dice_three);
 
         // Assert
         assertTrue(result);
@@ -26,11 +24,9 @@ class UPLK83_PaschTest {
         int dice_three = 4;
 
         // Act
-        boolean result = UPLK83_Pasch.isTriple(dice_one, dice_two, dice_three);
+        boolean result = Doublets.isDoublet(dice_one, dice_two, dice_three);
 
         // Assert
         assertFalse(result);
     }
 }
-
-*/

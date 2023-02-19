@@ -1,10 +1,8 @@
-package laura.uebungsprojekt.aufgaben;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class UPLK83_Pasch {
+public class Doublets {
     public static List<Integer> rollDice(int diceCount){
         Random dice = new Random();
         List<Integer> dices = new ArrayList<>();
@@ -14,7 +12,7 @@ public class UPLK83_Pasch {
         return dices;
     }
 
-    public static boolean isPasch(List<Integer> numbers) {
+    public static boolean isDoublet(List<Integer> numbers) {
         if (numbers.size() < 2) {
             return false;
         }
@@ -29,9 +27,9 @@ public class UPLK83_Pasch {
 
     public static void printResult(boolean result) {
         if (result) {
-            System.out.println("Du hast einen Pasch gewürfelt");
+            System.out.println("You got a doublet!");
         } else {
-            System.out.println("Du hast keinen Pasch gewürfelt");
+            System.out.println("You didn't roll a doublet!");
         }
     }
 }
