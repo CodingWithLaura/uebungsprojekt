@@ -1,8 +1,6 @@
-package laura.uebungsprojekt.aufgaben;
+import java.util.Scanner
 
-import java.util.Scanner;
-
-public class UPLK76_Taschenrechner {
+public class Calculator {
 
     public static void sumTwoNumbers() {
         System.out.print("Enter two numbers which will be added up: ");
