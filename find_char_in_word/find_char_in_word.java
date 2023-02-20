@@ -1,10 +1,8 @@
-package laura.uebungsprojekt.aufgaben;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class UPLK79_EinerVonVielen {
+public class FindCharInWord {
 
     private static List<Character> convertStringToCharList(String str) {
         List<Character> chars = new ArrayList<>();
